@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 100vh;
+    background-image: url(/logo.png);
+    background-size: 90%;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
