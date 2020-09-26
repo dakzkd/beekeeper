@@ -5,10 +5,33 @@
 }
 
 body {
-    background-size: 100vh;
-    background-image: url(/logo.png);
-    background-size: 90%;
-    background-position: center 0;
+    background-image: linear-gradient(to right bottom, #2ecc706e, 
+    #0c924460), url(/rainy.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    height: 75%;
+    width: auto;
+    filter: opacity(0.9);
+    transition: all .9s;
+}
+
+img:hover {
+    filter: opacity(1);
+    transform: scale(1.05);
 }
 
