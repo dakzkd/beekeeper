@@ -21,14 +21,32 @@ body {
     justify-content: center;
     align-items: center;
     height: 85%;
+
+    
+    
 }
+
+@media screen and (min-width: 992px) {
+    .img_container {
+        height: 99%;
+    }
+}  
 
 img {
     height: 72%;
     width: auto;
-    filter: opacity(0.9);
+    filter: opacity(0.95);
     transition: all .8s;
 }
+
+@media screen and (min-width: 992px) {
+    .img {
+        height: 100%;
+    }
+}  
+
+
+
 
 img:hover {
     filter: opacity(1);
