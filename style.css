@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: linear-gradient(to right bottom, #2ecc706e, 
-    #0c924460), url(/rainy.jpg);
+    background-image: linear-gradient(to right bottom, #1dca659a, 
+    #0c924460), url(img/rainy.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -52,4 +52,5 @@ img:hover {
     filter: opacity(1);
     transform: scale(1.1);
 }
+
 
