@@ -20,18 +20,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 85%;
 }
 
 img {
-    height: 75%;
+    height: 72%;
     width: auto;
     filter: opacity(0.9);
-    transition: all .9s;
+    transition: all .8s;
 }
 
 img:hover {
     filter: opacity(1);
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
